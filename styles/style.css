@@ -21,8 +21,53 @@ body {
     background-color: var(--clr-off-black);
     font-family: var(--ff-inter);
     color: var(--clr-white);
+    line-height: 1;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    padding: 24px;
+}
+
+footer {
+    position: absolute;
+    inset: auto 0 0 0;
 }
 
 /* Utility classes */
 
+/* Article */
+.article__container {
+    place-self: center;
+    background-color: var(--clr-dark-grey);
+    padding: 24px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 384px;
+}
+
 /* Header */
+.header__img {
+    width: 89px;
+    border-radius: 50%;
+    margin-inline: auto;
+}
+
+.header__group {
+    margin-block: 2rem;
+}
+
+.header__title {
+    font-size: 24;
+    font-variation-settings: "wght" 600;
+}
+
+.header__subtitle {
+    margin-top: 1rem;
+    color: var(--clr-green);
+    font-variation-settings: "wght" 700;
+}
+
+/* Social links */
